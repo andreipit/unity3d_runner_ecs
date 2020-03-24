@@ -20,5 +20,4 @@ public class Award : MonoBehaviour
         amount = 0;
         text.text = "0";
     }
-
 }

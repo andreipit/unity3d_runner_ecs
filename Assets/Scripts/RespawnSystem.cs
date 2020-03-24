@@ -12,8 +12,6 @@ class RespawnSystem : ComponentSystem
                 m.moving = false;
                 GameObject.Find("Environment").GetComponent<Spawn>().active = false;
                 r.startPanel.SetActive(true);
-                
-
             }
         });
     }

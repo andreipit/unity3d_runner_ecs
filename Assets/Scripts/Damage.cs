@@ -11,12 +11,8 @@ public class Damage : MonoBehaviour
             amount += 1;
             Destroy(other.gameObject);
         }
-        //else
-        //{
-        //    points.Increase(1);
-        //    Destroy(other.gameObject);
-        //}
     }
+    
     public void Reset()
     {
         amount = 0;
